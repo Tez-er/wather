@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Вебсайт про найпотужніші природні явища: дощ, гроза, сніг, цунамі, землетрус, торнадо та град.">
+    <title>Могутність Природи | Екстремальні Явища</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">Стихії.</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#hero">Головна</a></li>
+            <li><a href="#rain">Дощ</a></li>
+            <li><a href="#thunderstorm">Гроза</a></li>
+            <li><a href="#snow">Сніг</a></li>
+            <li><a href="#tsunami">Цунамі</a></li>
+            <li><a href="#earthquake">Землетрус</a></li>
+            <li><a href="#tornado">Торнадо</a></li>
+            <li><a href="#hail">Град</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="hero" class="section hero">
+        <div class="hero-content fade-in">
+            <h1>Могутні <span class="highlight">Стихії</span></h1>
+            <p>Відчуйте справжню силу природи. Досліджуйте екстремальні явища, які формують нашу планету.</p>
+            <a href="#rain" class="btn">Почати подорож</a>
+        </div>
+        <div class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="rain" class="section rain-bg">
+            <div class="canvas-container" id="rain-canvas-container"></div>
+            <div class="container">
+                <div class="glass-card fade-in">
+                    <div class="icon">🌧️</div>
+                    <h2>Дощ</h2>
+                    <p>Атмосферні опади у вигляді крапель рідини. Це життєдайна сила, яка може перетворитися на
+                        руйнівний потоп. Дощ відіграє ключову роль у гідрологічному циклі Землі, забезпечуючи прісною
+                        водою все живе на планеті.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">~1m</span><span class="label">Щорічні Опади</span></div>
+                        <div class="stat"><span class="number">30 км/год</span><span class="label">Швидкість
+                                Падіння</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="thunderstorm" class="section thunder-bg">
+            <div class="flash" id="lightning-flash"></div>
+            <div class="container reverse">
+                <div class="glass-card fade-in">
+                    <div class="icon">🌩️</div>
+                    <h2>Гроза</h2>
+                    <p>Атмосферне явище, що супроводжується блискавками та громом. Під час грози часто спостерігаються
+                        шквальні вітри та зливи. Кожної секунди на Землі відбувається близько 100 ударів блискавки.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">30,000°C</span><span class="label">Температура
+                                Блискавки</span></div>
+                        <div class="stat"><span class="number">10-20 км</span><span class="label">Висота Хмар</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="snow" class="section snow-bg">
+            <div class="canvas-container" id="snow-canvas-container"></div>
+            <div class="container">
+                <div class="glass-card fade-in">
+                    <div class="icon">❄️</div>
+                    <h2>Сніг</h2>
+                    <p>Форма твердих атмосферних опадів, що складається з кристалів льоду (сніжинок). Жодна сніжинка не
+                        має абсолютно однакової форми, що робить це явище справжнім дивом геометрії та фізики.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">6 сторін</span><span class="label">Має кожна
+                                сніжинка</span></div>
+                        <div class="stat"><span class="number">10%</span><span class="label">Землі вкрито льодом</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tsunami" class="section tsunami-bg">
+            <video class="bg-video" autoplay loop muted playsinline>
+                <source src="https://videos.pexels.com/video-files/856956/856956-hd_1920_1080_25fps.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="container reverse">
+                <div class="glass-card fade-in">
+                    <div class="icon">🌊</div>
+                    <h2>Цунамі</h2>
+                    <p>Серія величезних океанських хвиль, що виникають внаслідок підводних землетрусів, зсувів обо
+                        вивержень вулканів. Вони здатні перетинати океани зі швидкістю реактивного літака.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">800 км/год</span><span class="label">Швидкість в
+                                океані</span></div>
+                        <div class="stat"><span class="number">30+ м</span><span class="label">Висота хвиль на
+                                березі</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="earthquake" class="section earthquake-bg">
+            <div class="container">
+                <div class="glass-card fade-in">
+                    <div class="icon">🏚️</div>
+                    <h2>Землетрус</h2>
+                    <p>Раптове вивільнення енергії в земній корі, що створює сейсмічні хвилі. Це одне з найбільш
+                        непередбачуваних і руйнівних природних явищ, викликане рухом тектонічних плит.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">500,000+</span><span class="label">Щороку у світі</span>
+                        </div>
+                        <div class="stat"><span class="number">Шкала Ріхтера</span><span class="label">Вимірює
+                                силу</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tornado" class="section tornado-bg">
+            <div class="container reverse">
+                <div class="glass-card fade-in">
+                    <div class="icon">🌪️</div>
+                    <h2>Торнадо</h2>
+                    <p>Стрімко обертовий стовп повітря, що простягається від грозової хмари до земної поверхні. Торнадо
+                        володіють найсильнішими вітрами на планеті, здатними руйнувати все на своєму шляху.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">~500 км/год</span><span class="label">Макс. швидкість
+                                вітру</span></div>
+                        <div class="stat"><span class="number">Алея Торнадо</span><span class="label">США, найчастіші
+                                появи</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hail" class="section hail-bg">
+            <div class="canvas-container" id="hail-canvas-container"></div>
+            <div class="container">
+                <div class="glass-card fade-in">
+                    <div class="icon">🧊</div>
+                    <h2>Град</h2>
+                    <p>Опади у вигляді частинок льоду різного розміру. Утворюються у потужних купчасто-дощових хмарах
+                        внаслідок багаторазового замерзання крапель води, які перекидаються сильними висхідними потоками
+                        повітря.</p>
+                    <div class="stats">
+                        <div class="stat"><span class="number">До 20 см</span><span class="label">Діаметр градин</span>
+                        </div>
+                        <div class="stat"><span class="number">1+ кг</span><span class="label">Рекордна вага</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Стихії.</h3>
+            <p>Досліджуючи безмежну силу та красу нашої планети.</p>
+            <div class="social-links">
+                <a href="#">#nature</a>
+                <a href="#">#elements</a>
+                <a href="#">#phenomena</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Стихії Природи. Всі права захищені.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
